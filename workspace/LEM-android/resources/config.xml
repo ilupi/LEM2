@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget>
+	<ThumbIcon itemtype="string">icon/LEM_106.png</ThumbIcon>
+	<BigThumbIcon itemtype="string">icon/LEM_115.png</BigThumbIcon>
+	<ListIcon itemtype="string">icon/LEM_85.png</ListIcon>
+	<BigListIcon itemtype="string">icon/LEM_95.png</BigListIcon>
+	<category itemtype="string">game</category>
+	<autoUpdate itemtype="string">y</autoUpdate>
+	<apptype itemtype="string">11</apptype>
+	<login itemtype="string">n</login>
+	<ver itemtype="string">1.444</ver>
+	<fullwidget itemtype="string">y</fullwidget>
+	<srcctl itemtype="string">y</srcctl>
+	<childlock itemtype="string">n</childlock>
+	<audiomute itemtype="string">y</audiomute>
+	<videomute itemtype="string">y</videomute>
+	<dcont itemtype="string">n</dcont>
+	<widgetname itemtype="string">Extraordinary Minds</widgetname>
+	<description itemtype="string">You know the past. You know the present. Do you see the future as well? Test your foreseeing skills in the League of Extraordinary Minds.</description>
+	<width itemtype="string">960</width>
+	<height itemtype="string">540</height>
+	<author itemtype="group">
+		<name itemtype="string">MindEverest Ltd.</name>
+		<email itemtype="string">info@mindeverest.com</email>
+		<link itemtype="string">http://mindeverest.com</link>
+		<organization itemtype="string">MindEverest Ltd.</organization>
+	</author>
+</widget>

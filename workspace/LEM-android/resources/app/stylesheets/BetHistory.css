@@ -1,0 +1,49 @@
+#BetHistory_Background {
+	position : absolute;	
+	left : 0px;
+	top : 0px;
+	width : 960px;
+	height : 540px;
+}
+
+#BetHistory_Results{
+	position : absolute;
+	left : 121px;
+	top : 137px;
+	width : 686px;
+	height : 224px;
+}
+
+#BetHistory_RecommendationURL{	
+	position : absolute;
+	font-size : 8pt;
+	color : #000000;
+	left : 38px;
+	top : 510px;
+	width : 256px;
+	height: 30px;
+}
+
+#BetHistory_QRCode{
+	position : absolute;
+	left : 35px;
+	top : 445px;	
+	height : 70px; 
+	width : 70px; 
+}
+
+#BetHistory_Ad{
+	position : absolute;
+	left : 246px;
+	top : 450px;
+	width : 468px;
+	height : 60px;
+}
+
+#BetHistory_ExitPopup{
+	position : absolute;
+	left : 0px;
+	top : 0px;
+	width : 960px;
+	height: 540px;
+}

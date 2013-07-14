@@ -1,0 +1,1 @@
+// Moved to init.js as a bug workaround

@@ -1,0 +1,69 @@
+﻿================================================
+A játék indításakor egyszerre töltődik le az összes adat, 
+hogy használat közben a játék minél "fürgébb", responsive-abb legyen.
+Kezdésnél a DownloadSummary.php-t hívja meg a kliens és jellemzően ilyen XML-t kap vissza.
+Ha hiba van, akkor egy rövid XML-t kap (összeszedem majd) ill. ha a Loading képernyőn
+ki kell rakni egy informáló (és gombnyomásra eltűnő) üzenetet, akkor is némileg más a XML
+Ez itt a "normál" (>99%-ban visszaadott) XML struktúra:
+
+<?xml version="1.0" encoding="utf-8"?>
+<Summary>
+    <Account>
+        <EncodedID>1RPqW5SkS</EncodedID>
+        <IsNewAccount>FALSE</IsNewAccount>
+        <EloPoints>1077</EloPoints>
+        <Rank>Level27</Rank>
+        <Position>99</Position>
+        <Credits>98</Credits>
+        <RecommendationURL>http://mindeverest.com/lem?id=6GHJY</RecommendationURL>
+        <QRCodeURL>http://leagueofextraordinaryminds.mindeverest.com:8081/actual/DeveloperGenerated/forPlayers/DownloadQRCode.php?AccountRecommendationID=6GHJY</QRCodeURL>
+        <BetHistoryResultURL>http://leagueofextraordinaryminds.mindeverest.com:8081/actual/DeveloperGenerated/forPlayers/DownloadBetHistory.php?AccountEncodedID=1RPqW5SkS</BetHistoryResultURL>
+        <HallOfFameResultURL>http://leagueofextraordinaryminds.mindeverest.com:8081/actual/DeveloperGenerated/forPlayers/DownloadHallOfFame.php?AccountEncodedID=1RPqW5SkS</HallOfFameResultURL>
+        <IsNotificationNeededAboutReset>FALSE</IsNotificationNeededAboutReset>
+        <CreditsFromRecommendation>0</CreditsFromRecommendation>
+    </Account>
+    <ActualRound>
+        <Option1Stake>2</Option1Stake>
+        <Option2Stake>0</Option2Stake>
+        <Option3Stake>2</Option3Stake>
+        <Option4Stake>0</Option4Stake>
+        <Option1StakeRatio>276</Option1StakeRatio>
+        <Option2StakeRatio>153</Option2StakeRatio>
+        <Option3StakeRatio>338</Option3StakeRatio>
+        <Option4StakeRatio>230</Option4StakeRatio>
+        <Region1StakeRatio>0</Region1StakeRatio>
+        <Region2StakeRatio>24</Region2StakeRatio>
+        <Region3StakeRatio>268</Region3StakeRatio>
+        <Region4StakeRatio>0</Region4StakeRatio>
+        <Region5StakeRatio>585</Region5StakeRatio>
+        <Region6StakeRatio>121</Region6StakeRatio>
+        <RemainingTime>293</RemainingTime>
+    </ActualRound>
+    <LatestRound>
+        <CreditModification>NULL</CreditModification>
+    </LatestRound>
+    <AdURL>http://leagueofextraordinaryminds.mindeverest.com:8081/actual/DeveloperGenerated/forPlayers/DownloadAd.php?Lang=en&amp;HWM=Samsung&amp;SWP=SamsungSmartTV&amp;SWT=Free</AdURL>
+    <UploadStakeURL>http://leagueofextraordinaryminds.mindeverest.com:8081/actual/DeveloperGenerated/forPlayers/UploadStake.php</UploadStakeURL>
+    <BackgroundMusicURL>$WIDGET/sounds/music.mp3</BackgroundMusicURL>
+</Summary>
+
+
+
+==================================
+Tét elküldésekor pl. ilyen XML megy fel:
+<?xml version="1.0" encoding="utf-8"?>
+<Object>
+    <AccountEncodedID>1RPqW5SkS</AccountEncodedID>
+    <Option1Stake>2</Option1Stake>
+    <Option2Stake>0</Option2Stake>
+    <Option3Stake>2</Option3Stake>
+    <Option4Stake>0</Option4Stake>
+</Object>
+
+És normál esetben (ha nincs hiba), ilyen jön vissza:
+<?xml version="1.0" encoding="utf-8"?>
+<Answer>
+    <Message>Completed</Message>
+</Answer>
+
+A hibás eset XML-ét összeszedem majd.

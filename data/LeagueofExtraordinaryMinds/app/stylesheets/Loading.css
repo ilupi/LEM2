@@ -1,0 +1,15 @@
+#Loading_Background {
+	position : absolute;	
+	left : 0px;
+	top : 0px;
+	width : 960px;
+	height : 540px;
+}
+
+#Loading_Message {
+	position : absolute;	
+	left : 0px;
+	top : 427px;
+	width : 960px;
+	height : 113px;
+}

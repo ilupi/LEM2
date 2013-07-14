@@ -1,0 +1,527 @@
+#Main_Background{
+	position : absolute;	
+	left : 0px;
+	top : 0px;
+	width : 960px;
+	height : 540px;
+}
+
+#EloPointsGroup{
+	position : absolute;
+	left : 438px;
+	top : 60px;
+}
+
+#EloPointsDigit4{
+	position : absolute;
+	left : 0px;
+	width : 18px;
+	height : 28px;
+}
+
+#EloPointsDigit3{
+	position : absolute;
+	left : 20px;
+	width : 18px;
+	height : 28px;
+}
+
+#EloPointsDigit2{
+	position : absolute;
+	left : 40px;
+	width : 18px;
+	height : 28px;
+}
+
+#EloPointsDigit1{
+	position : absolute;
+	left : 60px;
+	width : 18px;
+	height : 28px;
+}
+
+#Rank{
+	position : absolute;
+	left : 328px;
+	top : 76px;
+	width : 314px;
+	height : 44px;
+}
+
+#RankDigitGroup{
+	position : absolute;	
+	top : 87px;
+}
+
+#RankDigit2{
+	position : absolute;	
+	left : 0px;
+	width : 14px;
+	height : 28px;
+}
+
+#RankDigit1{
+	position : absolute;	
+	left : 13px; 
+	width : 14px;
+	height : 28px;
+}
+
+#CreditsGroup{
+	position : absolute;
+	left : 0px;  
+	top : 204px; 	
+}
+
+#CreditsDigit4{
+	position : absolute;
+	left : 45px;  
+	width : 36px;
+	height : 52px;
+}
+
+#CreditsDigit3{
+	position : absolute;
+	left : 80px; 
+	width : 36px;
+	height : 52px;
+}
+
+#CreditsDigit2{
+	position : absolute;
+	left : 115px;
+	width : 36px;
+	height : 52px;
+}
+
+#CreditsDigit1{
+	position : absolute;
+	left : 150px;
+	width : 36px;
+	height : 52px;
+}
+
+#CreditsPlus{
+	position : absolute;
+	left : 180px;
+	width : 36px;
+	height : 52px;
+	background-image : url('../../images/NrPlus_size72_960.png');
+	visibility: hidden;
+}
+
+#Option1StakeDigit3{
+	position : absolute;
+	left : 316px;
+	top : 220px;
+	width : 18px;
+	height : 28px;
+}
+
+#Option1StakeDigit2{
+	position : absolute;
+	left : 336px;
+	top : 220px;
+	width : 18px;
+	height : 28px;
+}
+
+#Option1StakeDigit1{
+	position : absolute;
+	left : 356px;
+	top : 220px;
+	width : 18px;
+	height : 28px;
+}
+
+#Option2StakeDigit3{
+	position : absolute;
+	left : 407px;
+	top : 220px;
+	width : 18px;
+	height : 28px;
+}
+
+#Option2StakeDigit2{
+	position : absolute;
+	left : 427px;
+	top : 220px;
+	width : 18px;
+	height : 28px;
+}
+
+#Option2StakeDigit1{
+	position : absolute;
+	left : 447px;
+	top : 220px;
+	width : 18px;
+	height : 28px;
+}
+
+#Option3StakeDigit3{
+	position : absolute;
+	left : 496px;
+	top : 220px;
+	width : 18px;
+	height : 28px;
+}
+
+#Option3StakeDigit2{
+	position : absolute;
+	left : 516px;
+	top : 220px;
+	width : 18px;
+	height : 28px;
+}
+
+#Option3StakeDigit1{
+	position : absolute;
+	left : 536px;
+	top : 220px;
+	width : 18px;
+	height : 28px;
+}
+
+#Option4StakeDigit3{
+	position : absolute;
+	left : 590px;
+	top : 220px;
+	width : 18px;
+	height : 28px;
+}
+
+#Option4StakeDigit2{
+	position : absolute;
+	left : 610px;
+	top : 220px;
+	width : 18px;
+	height : 28px;
+}
+
+#Option4StakeDigit1{
+	position : absolute;
+	left : 630px;
+	top : 220px;
+	width : 18px;
+	height : 28px;
+}
+
+#Option1StakeHighlight1{
+	position : absolute;
+	left : 350px;
+	top : 190px;
+	width : 30px;
+	height : 100px;
+	background-image : url('../../images/CounterArrow_960.png');
+}
+
+#Option1StakeHighlight2{
+	position : absolute;
+	left : 330px;
+	top : 190px;
+	width : 30px;
+	height : 100px;
+	background-image : url('../../images/CounterArrow2_960.png');
+}
+
+#Option2StakeHighlight1{
+	position : absolute;
+	left : 440px;
+	top : 190px;
+	width : 30px;
+	height : 100px;
+	background-image : url('../../images/CounterArrow_960.png');
+}
+
+#Option2StakeHighlight2{
+	position : absolute;
+	left : 420px;
+	top : 190px;
+	width : 30px;
+	height : 100px;
+	background-image : url('../../images/CounterArrow2_960.png');
+}
+
+#Option3StakeHighlight1{
+	position : absolute;
+	left : 528px;
+	top : 190px;
+	width : 30px;
+	height : 100px;
+	background-image : url('../../images/CounterArrow_960.png');
+}
+
+#Option3StakeHighlight2{
+	position : absolute;
+	left : 508px;
+	top : 190px;
+	width : 30px;
+	height : 100px;
+	background-image : url('../../images/CounterArrow2_960.png');
+}
+
+#Option4StakeHighlight1{
+	position : absolute;
+	left : 623px;
+	top : 190px;
+	width : 30px;
+	height : 100px;
+	background-image : url('../../images/CounterArrow_960.png');
+}
+
+#Option4StakeHighlight2{
+	position : absolute;
+	left : 603px;
+	top : 190px;
+	width : 30px;
+	height : 100px;
+	background-image : url('../../images/CounterArrow2_960.png');
+}
+
+#RemainingTimeGroup{
+	position : absolute;	
+	left : 700px;
+	top : 228px;
+}
+
+#RemainingTime{
+	position : absolute;	
+	left : 21px;
+	top : 3px;
+	width : 256px;
+	height : 24px;
+}
+
+#TimeDigitGroup{
+	position : absolute;	
+	left : 41px;
+	height : 28px;
+}
+
+#TimeDigit2{
+	position : absolute;	
+	left : 0px;
+	width : 14px;
+	height : 28px;
+}
+
+#TimeDigit1{
+	position : absolute;	
+	left : 13px;
+	width : 14px;
+	height : 28px;
+}
+
+#PreviousBetsGroup{
+	position : absolute;	
+	left : 327px;
+	top : 320px;
+}
+
+#LightOption1{
+	position : absolute;	
+	width : 350px;
+	height : 144px;
+	background-color: rgb(217,53,42);
+}
+
+#LightOption2{
+	position : absolute;	
+	width : 350px;
+	height : 144px;
+	background-color: rgb(90,144,72);
+}
+
+#LightOption3{
+	position : absolute;	
+	width : 350px;
+	height : 144px;
+	background-color: rgb(212,174,21);
+}
+
+#LightOption4{
+	position : absolute;	
+	width : 350px;
+	height : 144px;
+	background-color: rgb(80,110,166);
+}
+
+#Region1{
+	position : absolute;	
+	width : 350px;
+	height : 144px;
+	background-image : url('../../images/MaskRegion1_960.png');
+}
+
+#Region2{
+	position : absolute;	
+	width : 350px;
+	height : 145px;
+	background-image : url('../../images/MaskRegion2_960.png');
+}
+
+#Region3{
+	position : absolute;	
+	width : 350px;
+	height : 145px;
+	background-image : url('../../images/MaskRegion3_960.png');
+}
+
+#Region4{
+	position : absolute;	
+	width : 350px;
+	height : 145px;
+	background-image : url('../../images/MaskRegion4_960.png');
+}
+
+#Region5{
+	position : absolute;	
+	width : 350px;
+	height : 145px;
+	background-image : url('../../images/MaskRegion5_960.png');
+}
+
+#Region6{
+	position : absolute;	
+	width : 350px;
+	height : 145px;
+	background-image : url('../../images/MaskRegion6_960.png');
+}
+
+#HallOfFameHighlight{
+	position : absolute;
+	left : 661px;
+	top : 41px;
+	width : 300px;
+	height: 54px;	
+}
+
+#SendHighlight{
+	position : absolute;
+	left : 715px;
+	top : 177px;
+	width : 240px;
+	height: 54px;
+}
+
+#BetHistoryHighlight{
+	position : absolute;
+	left : 678px;
+	top : 308px;
+	width : 300px;
+	height: 54px;	
+}
+#Main_RecommendationURL{	
+	position : absolute;
+	font-size : 8pt;
+	color : #000000;
+	left : 38px;
+	top : 510px;
+	width : 256px;
+	height: 30px;
+}
+
+#Main_QRCode{
+	position : absolute;
+	left : 35px;
+	top : 445px;	
+	height : 70px; 
+	width : 70px; 
+}
+
+#Main_Ad{
+	position : absolute;
+	left : 246px;
+	top : 450px;
+	width : 468px;
+	height : 60px;
+}
+
+#FullScreenPopups{
+	position : absolute;
+	left : 0px;
+	top : 0px;
+	width : 960px;
+	height: 540px;
+}
+
+#CreditsChangeNoBet{
+	position : absolute;
+	left : 527px;
+	top : 196px;
+	width : 170px;
+	height: 30px;
+}
+
+#CreditsChangeSign{
+	position : absolute;
+	left : 512px;
+	top : 197px;
+	width : 18px;
+	height: 28px;	
+}
+
+#CreditsChangeDigit3{
+	position : absolute;	
+	left : 532px;
+	top : 192px;
+	width : 18px;
+	height : 28px;
+}
+
+#CreditsChangeDigit2{
+	position : absolute;	
+	left : 549px;
+	top : 192px;
+	width : 18px;
+	height : 28px;
+}
+
+#CreditsChangeDigit1{
+	position : absolute;	
+	left : 566px;
+	top : 192px;
+	width : 18px;
+	height : 28px;
+}
+
+#CreditsChangePlus{
+	position : absolute;	
+	left : 585px;
+	top : 192px;
+	width : 18px;
+	height : 28px;
+	background-image : url('../../images/Nr++_size32_960.png');
+}
+	
+#RecommendationResultDigit2{
+	position : absolute;	
+	left : 549px;
+	top : 229px;
+	width : 18px;
+	height : 28px;
+}
+
+#RecommendationResultDigit1{
+	position : absolute;	
+	left : 566px;
+	top : 229px;
+	width : 18px;
+	height : 28px;
+}
+
+#RecommendationResultNull{
+	position : absolute;	
+	left : 232px;
+	top : 231px;
+	width : 500px;
+	height : 216px;
+}
+
+#Curtain{
+	position : absolute;	
+	left : 0px;
+	top : 0px;
+	width : 960px;
+	height : 540px;
+}

@@ -1,0 +1,7 @@
+{
+	"scenes" : [ "Loading", "Main", "HallOfFame", "BetHistory" ],
+	"files" : [],
+	"changeSource" : true, 
+	"theme" : "base",
+	"languages" : ["en","es","hu","ja","ko","zh"]
+}

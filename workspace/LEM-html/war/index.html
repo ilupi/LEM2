@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+	<head>
+		<title>LEM</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<style>
+			canvas {
+				cursor: default;
+				outline: none;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div align="center" id="embed-hu.grapes.me.lem.GwtDefinition"></div>
+		<script type="text/javascript" src="hu.grapes.me.lem.GwtDefinition/hu.grapes.me.lem.GwtDefinition.nocache.js"></script>
+	</body>
+	
+	<script>
+		function handleMouseDown(evt) {
+		  evt.preventDefault();
+		  evt.stopPropagation();
+		  evt.target.style.cursor = 'default';
+		}
+		
+		function handleMouseUp(evt) {
+		  evt.preventDefault();
+		  evt.stopPropagation();
+		  evt.target.style.cursor = '';
+		}
+		
+		document.getElementById('embed-hu.grapes.me.lem.GwtDefinition').addEventListener('mousedown', handleMouseDown, false);
+		document.getElementById('embed-hu.grapes.me.lem.GwtDefinition').addEventListener('mouseup', handleMouseUp, false);
+	</script>
+</html>
